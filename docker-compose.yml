@@ -25,7 +25,7 @@ services:
   spring_app:
     depends_on:
       - mysql-db
-    image: brinsi/achat
+    image: brinsi99/achat
     container_name: achat
     environment:
       SPRING_APPLICATION_JSON: '{
